@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register new book</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js" defer></script>
+</head>
+<body>
+    <img src="https://cdn.midjourney.com/85141340-cb6b-4f72-b360-cde3427c3f9c/0_2.png">
+	<h1>Register new book</h1>
+	<form id="register-form">
+		<label for="author">Title:</label>
+		<input type="text" id="title" name="title"><br>
+
+		<label for="title">Author:</label>
+		<input type="text" id="author" name="author"><br>
+
+		<label for="genre">Year:</label>
+		<input type="number" id="year" name="year"><br>
+
+		<label for="year">Genre:</label>
+		<input type="text" id="genre" name="genre"><br>
+
+		<input type="submit" value="Register">
+	</form>
+
+	<script src="index.js"></script>
+</body>
+</html>

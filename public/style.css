@@ -1,0 +1,235 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c7c0c0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#chat-btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#chat-btn:hover {
+    background-color: #1558d6;
+}
+
+#search-results {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+.message-box {
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 600px;
+    height: 300px;
+    padding: 20px;
+    margin: 40px auto;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+.message {
+    margin-bottom: 15px;
+}
+
+#input {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#send {
+    display: block;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+
+#send:hover {
+    background-color: #1558d6;
+}
+
+.register-btn {
+    margin-left: 10px;
+}
+.book {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.book h2 {
+    margin-top: 0;
+}
+
+.book p {
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    background-color: #742222;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.btn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type='text'] {
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button[type='submit'] {
+    height: 30px;
+    padding: 0 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button[type='submit']:hover {
+    background-color: #0062cc;
+}
+
+#chat-btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    margin: 0 1rem;
+    max-width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input {
+    margin: 0.5rem 0;
+}
+
+#register-form input[type='submit'] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.register-new-book {
+    border: 2px solid #007bff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.server-message {
+    /* Lägger till så att texten står ut */
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+}
